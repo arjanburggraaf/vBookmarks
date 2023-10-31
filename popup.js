@@ -8,9 +8,9 @@
     document.addEventListener('DOMContentLoaded', () => {
         // Restore size
         if (localStorage.popupHeight) {
-            if (localStorage.popupHeight > 600) {
-                localStorage.popupHeight = 600;
-            }
+//            if (localStorage.popupHeight > 600) {
+//                localStorage.popupHeight = 600;
+//            }
             document.body.style.height = `${localStorage.popupHeight}px`;
         }
 
